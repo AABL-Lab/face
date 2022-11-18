@@ -3,7 +3,6 @@ project(face)
 
 
 find_package(catkin REQUIRED COMPONENTS
-  message_generation
 )
 
 ## Generate messages in the 'msg' folder
@@ -14,16 +13,13 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate services in the 'srv' folder
-add_service_files(
-  FILES
-  LedEye.srv
-  LedEar.srv
-)
+#add_service_files(
+#)
 
 ## Generate added messages and services with any dependencies listed here
-generate_messages(
-  DEPENDENCIES
-)
+#generate_messages(
+#  DEPENDENCIES
+#)
 
 catkin_package(  
 )

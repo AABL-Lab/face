@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>face</name>
+  <name>poli_msgs</name>
   <version>0.0.1</version>
   <description>The poli_msgs package</description>
 
